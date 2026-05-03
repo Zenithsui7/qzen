@@ -561,7 +561,16 @@ function History({ items, onLoad }) {
           <div style={{display:'flex',justifyContent:'space-between',alignItems:'flex-end',marginBottom:'20px'}}>
             <div>
               <div className="slabel">Session History</div>
-              <h2 style={{fontSize:'1.35rem',marginTop:'5px',fontWeight:'500'}}>Recent QR Codes</h2>
+              <h2 
+  className="slabel"
+  style={{
+    fontSize: '1.35rem',
+    marginTop: '5px',
+    fontWeight: '500'
+  }}
+>
+  Recent QR Codes
+</h2>
             </div>
             <span style={{fontSize:'12px',color:'rgba(255,248,238,0.25)'}}>{items.length} / 10</span>
           </div>
